@@ -1,0 +1,56 @@
+#register-form {
+    width: 700px;
+    height:100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    text-align:center;
+    border: 3px solid #ccc;
+}
+
+#topbar-icon {
+    width:90px;
+    height:65%;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+}
+
+.form-fill {
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: none;
+   
+}
+
+#box-input {
+    font-size: 18px;
+    border:none;
+    border-bottom: 2px solid grey;
+    width:50%;
+    height:50px;
+}
+
+#box-input:focus {
+    background-color: rgb(250, 203, 203);
+}
+
+#reg-but {
+    background-color: #0056ff;
+    width: 180px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px grey;
+    color: white;
+}
+
+#reg-but:hover {
+    background-color:darkblue ;
+
+}

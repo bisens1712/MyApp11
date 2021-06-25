@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    background-color:#f2f6ff;
+}
+
+#topbar {
+    padding: 12px 80px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+
+#top-img {
+    height:100px;
+    width:100px;
+}
+
+#heading {
+    font-size:32px;
+    color:darkred;
+    font-weight: 600;
+    font-family: andalus;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-menu {
+    display: flex;
+    align-items: center;
+}
+
+#right-menu {
+    display: flex;
+    align-items: center;
+}
+
+#link-login {
+    font-size: larger;
+    margin-right:10px;
+    font-family: constantia;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#link-login:hover {
+    color: red;
+}
+
+#link-signup {
+    font-size:larger;
+    margin-left:20px;
+    font-family: constantia;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#link-signup:hover {
+    color: red;
+}
+
+#stu-por {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#search-container {
+    height:40px;
+    width:500px;
+    border: none;
+    margin: 25px 35%;
+    box-shadow: 4px 4px 4px #ccc;
+    border-radius: 20px;
+}
+
+#topbar-icon {
+    width:200px;
+    height:65%;
+    padding-left: 40px;
+    padding-right: 36px;
+    padding-top: 20px;
+}
